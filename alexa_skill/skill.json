@@ -1,0 +1,61 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "F.R.I.D.A.Y. is a personal home assistant for controlling home appliances.",
+          "examplePhrases": [
+            "Alexa open friday home",
+            "Alexa friday home",
+            "Alexa launch friday home"
+          ],
+          "keywords": [
+            "Home",
+            "control",
+            "home",
+            "assistant",
+            "Friday",
+            "home",
+            "assistant",
+            "smart",
+            "home",
+            "assistant"
+          ],
+          "name": "F.R.I.D.A.Y Home",
+          "description": "F.R.I.D.A.Y. is a personal smart home assistant to control iot devices",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This skill is not made for public release, I made this skill for my own requirement.",
+      "category": "DEVICE_TRACKING",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:957666049871:function:9426ab68-d1f6-4fcf-aa2a-ae9928d95812:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-IN": {
+          "termsOfUseUrl": "https://drive.google.com/file/d/1kOkC383Q51f_jJ7rMwDCxeRX5aBpTMbf/view",
+          "privacyPolicyUrl": "https://drive.google.com/file/d/1ZOnyzfxh6zTBqK_gFy-hw-IXr-vBbfvX/view"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

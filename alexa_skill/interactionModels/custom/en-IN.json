@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "friday home",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "turnOn",
+          "slots": [],
+          "samples": [
+            "can you please turn on the light",
+            "it\u0027s too dark here",
+            "it is too dark here",
+            "why is so dark here",
+            "turn on light",
+            "i\u0027m home",
+            "i cannot see",
+            "i cant see",
+            "I am home"
+          ]
+        },
+        {
+          "name": "turnOff",
+          "slots": [],
+          "samples": [
+            "can you put off the light for me",
+            "turn out the light",
+            "turn off the light please",
+            "I\u0027m going out take care of my light",
+            "i am going out",
+            "i\u0027m going out",
+            "I am going out take care of my light",
+            "bye good night",
+            "power saving mode",
+            "i need some rest",
+            "it\u0027s sleeping time",
+            "let\u0027s go dark",
+            "lets go dark"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
